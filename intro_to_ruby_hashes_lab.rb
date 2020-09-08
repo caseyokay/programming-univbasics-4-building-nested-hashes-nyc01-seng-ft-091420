@@ -30,7 +30,7 @@ def monopoly_with_third_tier
       names: {}
     }
   }
-  base_hash:railroads
+  base_hash[:railroads][rent_in_dollars]<<
 end
 
 def monopoly_with_fourth_tier
