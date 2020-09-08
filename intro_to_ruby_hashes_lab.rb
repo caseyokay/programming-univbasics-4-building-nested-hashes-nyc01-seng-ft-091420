@@ -31,6 +31,9 @@ def monopoly_with_third_tier
     }
   }
   base_hash[:railroads][rent_in_dollars]<<{one_piece_owned: 25}
+  base_hash[:railroads][rent_in_dollars]<<{two_piece_owned: 50}
+  base_hash[:railroads][rent_in_dollars]<<{one_piece_owned: 25}
+  base_hash[:railroads][rent_in_dollars]<<{one_piece_owned: 25}
 end
 
 def monopoly_with_fourth_tier
