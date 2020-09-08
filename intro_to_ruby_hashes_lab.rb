@@ -30,6 +30,7 @@ def monopoly_with_third_tier
       names: {}
     }
   }
+  base_hash
 end
 
 def monopoly_with_fourth_tier
